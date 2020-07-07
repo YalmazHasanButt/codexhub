@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.FragmentProduct"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="#3E3C40">
+
+
+    <EditText
+        android:id="@+id/name_enField"
+        android:gravity="center"
+        android:hint="Name"
+        android:textColor="#ffffff"
+        android:textColorHint="#C0C0C0"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1" />
+
+    <EditText
+        android:id="@+id/barcodeTxt"
+        android:gravity="center"
+        android:hint="Barcode"
+        android:textColor="#ffffff"
+        android:textColorHint="#C0C0C0"
+        android:inputType="number"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+android:layout_weight="0.1"
+      />
+    <EditText
+        android:id="@+id/sku"
+        android:gravity="center"
+        android:hint="sku"
+        android:textColor="#ffffff"
+        android:textColorHint="#C0C0C0"
+        android:inputType="number"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+android:layout_weight="0.1"
+      />
+    <EditText
+        android:id="@+id/category"
+        android:gravity="center"
+        android:hint="category"
+        android:textColor="#ffffff"
+        android:textColorHint="#C0C0C0"
+        android:inputType="number"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+android:layout_weight="0.1"
+      />
+    <EditText
+        android:id="@+id/costPrice"
+        android:gravity="center"
+        android:hint="cost price"
+        android:textColor="#ffffff"
+        android:textColorHint="#C0C0C0"
+        android:layout_margin="5dp"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+android:layout_weight="0.1"
+      />
+    <EditText
+        android:id="@+id/sellingPrice"
+        android:gravity="center"
+        android:hint="selling price"
+        android:textColor="#ffffff"
+        android:textColorHint="#C0C0C0"
+        android:inputType="numberDecimal"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+android:layout_weight="0.1"
+      />
+    <EditText
+        android:id="@+id/quantity"
+        android:gravity="center"
+        android:hint="quantity"
+        android:textColor="#ffffff"
+        android:textColorHint="#C0C0C0"
+        android:inputType="number"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+android:layout_weight="0.1"
+      />
+    <EditText
+        android:id="@+id/alert_quantity"
+        android:gravity="center"
+        android:hint="alert quantity"
+        android:textColor="#ffffff"
+        android:textColorHint="#C0C0C0"
+        android:inputType="number"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+android:layout_weight="0.1"
+      />
+    <EditText
+        android:id="@+id/dateProductView"
+        android:gravity="center"
+        android:hint="date"
+        android:textColor="#ffffff"
+        android:textColorHint="#C0C0C0"
+        android:inputType="date"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1"
+      />
+
+
+    <Button
+        android:id="@+id/createProductBtn"
+        android:text="Create Product"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_bg"
+        android:layout_weight="0.1"/>
+
+</LinearLayout>
